@@ -53,5 +53,16 @@ while True:
         print_pause("After a few moments, you find yourself "
                     "in the engineering department.")
         if "Id card" and "Employee handbook" in items:
-            print_pause("You use your Id card to unlock the door and enter your office.\n")
+            print_pause("You use your Id card to unlock the door and enter your office.\n"
+                        "You sit down and begin reading you Employee handbook.")
+            break
+        elif "Id card" in items:
+            print_pause("You use your Id card to gain access to the engineering department\n"
+                        "You are unsure how to log into you computer.\n"
+                        "Maybe an employee handbook would help\n"
+                        "You return to the elevator")
+        else:
+            print_pause("You exit the elevator but cannot access the"
+                        "engineering department without an Id card\n"
+                        "You return to the elevator.")
     print_pause("Where would you like to go next?")
