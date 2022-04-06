@@ -1,0 +1,31 @@
+.whole {
+    border: 1px solid black;
+    width: 302px;
+    padding: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.479);
+    border-radius: 5px;
+    margin:auto;
+}
+.fun {
+    font-style: italic;
+}
+.info {
+    border: 1px solid black;
+    width: 278px;
+    padding: 10px;
+    margin-top: 15px;
+    }
+.fact {
+    font-weight:bold;
+}
+ul{
+    list-style-type:none;
+    text-align:left;
+    padding: 0;
+}
+.title{
+    font: bold 20px sans-serif;
+    padding-bottom:10px;
+    margin:0;
+    font-weight:bold;
+}
